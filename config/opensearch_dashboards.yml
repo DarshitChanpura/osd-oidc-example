@@ -197,6 +197,8 @@ opensearch_security.openid.connect_url: "http://host.docker.internal:8080/auth/r
 opensearch_security.openid.client_id: "opensearch-dashboards-sso"
 
 # The client secret of the OpenID Connect client
-opensearch_security.openid.client_secret: "oafgByDOh4Ug5Dl8n0xaQSniRMMq31ft"
+opensearch_security.openid.client_secret: "ro03R7uUZ9f0l41vLZxJ2xTBYJ9tcczv"
 
 opensearch_security.openid.base_redirect_url: http://localhost:5601
+
+opensearch_security.openid.scope: openid profile email address phone microprofile-jwt
